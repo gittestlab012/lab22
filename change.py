@@ -19,4 +19,5 @@ N = 100
 a = []
 for i in range(N):
     a.append(randint(1, 9999))
+print(a)
 

@@ -15,3 +15,8 @@ def quicksort(nums):
            else:
                e_nums.append(n)
        return quicksort(s_nums) + e_nums + quicksort(m_nums)
+N = 100
+a = []
+for i in range(N):
+    a.append(randint(1, 9999))
+
